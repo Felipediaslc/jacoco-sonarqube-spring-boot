@@ -15,6 +15,14 @@
 	<description>Ricas Finanças</description>
 
 	<properties>
+		<sonar.projectKey>JacocoSonar</sonar.projectKey>
+		<sonar.host.url>http://ip172-18-0-18-c1m9mbpbqvp0009gjdn0-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>fdfaa5c0fa2fbbf32072d747aaad62c65dbf7a37</sonar.login>	
+		<sonar.language>java</sonar.language>	
+		<sonar.sources>src/main/java</sonar.sources>
+		<sonar.java.binaries>target/classes</sonar.java.binaries>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>11</java.version>
 	</properties>
 
